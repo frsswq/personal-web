@@ -4,6 +4,8 @@ import { BrowserRouter } from "react-router";
 
 import { App } from "./application";
 
+import "@fontsource/open-runde/500.css";
+import "@fontsource/open-runde/600.css";
 import "./index.css";
 
 const rootElement = document.querySelector("#root");
