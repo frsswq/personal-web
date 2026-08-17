@@ -1,0 +1,40 @@
+{
+  "name": "personal-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "deploy": "wrangler pages deploy dist --project-name=personal-web",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.19.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router": "^8.3.0"
+  },
+  "devDependencies": {
+    "@stylexjs/unplugin": "^0.19.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "husky": "^9.1.7",
+    "jsdom": "^30.0.1",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "oxlint-plugin-react-doctor": "^0.9.12",
+    "typescript": "^7.0.2",
+    "ultracite": "7.10.5",
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.123.0"
+  }
+}
