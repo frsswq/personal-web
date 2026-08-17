@@ -1,1 +1,1 @@
-export const siteName = "Personal Web";
+export const siteName = "Faris Saifuddin Wafiq";

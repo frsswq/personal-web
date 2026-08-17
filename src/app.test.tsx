@@ -13,7 +13,11 @@ describe(App, () => {
     );
 
     expect(
-      screen.getByRole("heading", { name: "Personal Web" })
+      screen.getByRole("heading", { name: "Faris Saifuddin Wafiq" })
     ).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "LinkedIn" })).toHaveAttribute(
+      "href",
+      "https://www.linkedin.com/in/farissaifuddinwafiq/"
+    );
   });
 });
